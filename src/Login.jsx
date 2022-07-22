@@ -9,8 +9,28 @@ export default class Login extends Component {
   render() {
     return (
       <div>
-        <h4 className="m-1 p-2 border-bottom">Login</h4>
+        <h4 className="m-1 p-2 border-bottom">Welcome</h4>
 
+        <div class="card text-center">
+  <div class="card-header fw-bold">
+        READ ME
+  </div>
+  <div class="card-body">
+    <p class="card-text fst-italic">This website is very basic with no design thought put into it. This is simply to demonstrate basic ReactJS concepts.
+    </p>
+    <h5> These are the technologies and concepts used to create this application:</h5>
+    <ul class="list-group list-group-flush">
+    <li class="list-group-item">JavaScript</li>
+    <li class="list-group-item">React</li>
+    <li class="list-group-item">Node</li>
+    <li class="list-group-item">Bootstrap</li>
+    <li class="list-group-item">JSON</li>
+    <li class="list-group-item">Props &amp; States</li>
+    <li class="list-group-item">RESTful Service</li>
+  </ul>
+  </div>
+</div>
+            <h3 className="mt-4">Login</h3>
         {/* Email starts */}
         <div className="form-group form-row">
           <label className="col-lg-4">Email:</label>
